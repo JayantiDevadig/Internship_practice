@@ -1,0 +1,8 @@
+BEGIN
+	DECLARE num1,num2,sum
+	READ num1,num2
+	IF num1>num2
+		DISPLAY "num1 is big"
+	ELSE
+		DISPLAY "num2 is big"
+END

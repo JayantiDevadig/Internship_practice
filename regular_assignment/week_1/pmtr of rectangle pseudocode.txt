@@ -1,0 +1,6 @@
+BEGIN
+	DECLARE  length,bredth,pmtr
+	READ  l,b
+	CALCULATE pmtr=2*(l+b)
+	DISPLAY pmtr
+END

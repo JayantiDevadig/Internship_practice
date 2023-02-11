@@ -1,0 +1,6 @@
+BEGIN
+	DECLARE  base,height,pmtr
+	READ  b,h
+	CALCULATE pmtr=1/2(b*h)
+	DISPLAY pmtr
+END

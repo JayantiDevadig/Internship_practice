@@ -1,0 +1,6 @@
+BEGIN
+	DECLARE  side,pmtr
+	READ  side
+	CALCULATE pmtr=side*4
+	DISPLAY pmtr
+END

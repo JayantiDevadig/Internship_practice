@@ -1,0 +1,10 @@
+BEGIN
+	DECLARE num
+	READ num
+	IF num==0 THEN
+		DISPLAY "Zero"
+	ELSE IF num%2==0
+		DISPLAY"num is even"
+	ELSE 
+		DISPLAY "num is odd"
+END

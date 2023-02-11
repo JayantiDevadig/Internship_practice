@@ -1,0 +1,10 @@
+BEGIN
+	DECLARE char
+	READ char
+	IF  ( char>='a'&&char<='z')
+		DISPLAY "alphabet"
+	ELSE  IF char>=0
+		DISPLAY"digit"
+	ELSE
+		DISPLAY"special character"
+END

@@ -1,0 +1,20 @@
+BEGIN
+	DECLARE sub1,sub2,sub3,sub4,sub5,total,avg,grade
+	READ total,avg,grade
+	CALCULATE total=sub1+sub2+sub3+sub4+sub5
+	DISPLAY total
+	CALCULATE avg=total/5
+	DISPLAY avg
+	IF grade>=90 THEN
+		DISPLAY "A grade"
+	ELSE IF grade>=90&&grade<=80 THEN
+		DISPLAY"B grade"
+	ELSE IF grade>=80&&grade<=70 THEN
+		DISPLAY"C grade"
+	ELSE IF grade>=70&&grade<=60 THEN
+		DISPLAY"D grade"
+	ELSE
+		DISPLAY"Fail"
+END
+		
+	

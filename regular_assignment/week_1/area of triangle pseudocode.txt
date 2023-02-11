@@ -1,0 +1,6 @@
+BEGIN
+	DECLARE  base,height,area
+	READ  b,h
+	CALCULATE area=b*h
+	DISPLAY area
+END

@@ -1,0 +1,8 @@
+BEGIN
+	DECLARE t,char
+	READ t
+	IF  char=='t'
+		DISPLAY "t is a char"
+	ELSE
+		DISPLAY"t is not a char"
+END

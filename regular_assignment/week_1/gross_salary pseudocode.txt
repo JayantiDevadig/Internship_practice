@@ -1,0 +1,6 @@
+BEGIN
+	DECLARE basic_salary,hra,da,gross_salary
+	READ basic_salary,hra,da
+	CALCULATE gross_salary=basic_salary+hra+da
+	DISPLAY gross_salary
+END
